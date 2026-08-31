@@ -5,9 +5,9 @@ const Features = () => {
       <div className="flex md:flex-row flex-col max-w-275 mx-auto px-6 py-14 justify-center items-center gap-4 ">
         <div className="border border-[#99A69E] rounded-2xl p-8 w-200  ">
           <div className="relative w-full h-64 ">
-            <Image
+             <Image
               className="rounded-lg obect-cover object-top border border-[#99A69E]"
-              src={"/image1.jfif"}
+              src={"/image1.png"}
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
               alt="image 1"
