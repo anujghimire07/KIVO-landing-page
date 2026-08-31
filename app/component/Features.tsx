@@ -6,9 +6,10 @@ const Features = () => {
         <div className="border border-[#99A69E] rounded-2xl p-8 w-200  ">
           <div className="relative w-full h-64 ">
             <Image
-              className="rounded-lg object-position object-top border border-[#99A69E]"
-              src={"/landing page image 1.jfif"}
+              className="rounded-lg obect-cover object-top border border-[#99A69E]"
+              src={"/image1.jfif"}
               fill
+              sizes="(max-width: 768px) 100vw, 33vw"
               alt="image 1"
               priority
             ></Image>
@@ -23,10 +24,11 @@ const Features = () => {
         <div className="border border-[#99A69E] rounded-2xl p-8 w-200">
           <div className="relative w-full h-64 ">
             <Image
-              className="rounded-lg object-position object-top border border-[#99A69E]"
-              src={"/landing page image 2.png"}
+              className="rounded-lg obect-cover object-top border border-[#99A69E]"
+              src={"/image2.png"}
               fill
-              alt="image 1"
+              sizes="(max-width: 768px) 100vw, 33vw"
+              alt="image 2"
               priority
             ></Image>
           </div>
@@ -39,10 +41,11 @@ const Features = () => {
         <div className="border border-[#99A69E] rounded-2xl p-8 w-200 ">
           <div className="relative w-full h-64 ">
             <Image
-              className="rounded-lg object-position object-top border border-[#99A69E] "
-              src={"/landing page image 3.png"}
+              className="rounded-lg obect-cover object-top border border-[#99A69E] "
+              src={"/image3.png"}
               fill
-              alt="image 1"
+              sizes="(max-width: 768px) 100vw, 33vw"
+              alt="image 3"
               priority
             ></Image>
           </div>
