@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KIVO
+
+A calm, minimal landing page for **KIVO** — a simple task management tool that keeps your to-dos organized. Add tasks, set priorities, mark them done, and let the built-in calendar keep you grounded.
+
+## Live Demo
+
+Check it out live: [https://kivo-landing-page-five.vercel.app/](https://kivo-landing-page-five.vercel.app/)
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) — React framework (App Router)
+- [React](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com) — styling
+- [Zod](https://zod.dev) — form validation
+- [TypeScript](https://www.typescriptlang.org)
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -18,7 +38,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load fonts.
+
+## Scripts
+
+- `npm run dev` — start the development server
+- `npm run build` — build the app for production
+- `npm run start` — start the production server
+- `npm run lint` — run ESLint
 
 ## Learn More
 
